@@ -14,6 +14,9 @@
 		3F2AD94C1AFCE9E200CC7E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AD94B1AFCE9E200CC7E25 /* Images.xcassets */; };
 		3F2AD94F1AFCE9E200CC7E25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AD94D1AFCE9E200CC7E25 /* LaunchScreen.xib */; };
 		3F2AD95B1AFCE9E200CC7E25 /* search_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AD95A1AFCE9E200CC7E25 /* search_testTests.m */; };
+		3F2AD9681AFCEA4000CC7E25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AD9651AFCEA4000CC7E25 /* Default-568h@2x.png */; };
+		3F2AD9691AFCEA4000CC7E25 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AD9661AFCEA4000CC7E25 /* Default-667h@2x.png */; };
+		3F2AD96A1AFCEA4000CC7E25 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AD9671AFCEA4000CC7E25 /* Default-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		3F2AD9541AFCE9E200CC7E25 /* search testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "search testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2AD9591AFCE9E200CC7E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F2AD95A1AFCE9E200CC7E25 /* search_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = search_testTests.m; sourceTree = "<group>"; };
+		3F2AD9651AFCEA4000CC7E25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F2AD9661AFCEA4000CC7E25 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3F2AD9671AFCEA4000CC7E25 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 			children = (
 				3F2AD93F1AFCE9E200CC7E25 /* Info.plist */,
 				3F2AD9401AFCE9E200CC7E25 /* main.m */,
+				3F2AD9641AFCEA4000CC7E25 /* Defaults */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +125,17 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		3F2AD9641AFCEA4000CC7E25 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				3F2AD9651AFCEA4000CC7E25 /* Default-568h@2x.png */,
+				3F2AD9661AFCEA4000CC7E25 /* Default-667h@2x.png */,
+				3F2AD9671AFCEA4000CC7E25 /* Default-736h@3x.png */,
+			);
+			name = Defaults;
+			path = "search testTests/Defaults";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -209,6 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2AD9681AFCEA4000CC7E25 /* Default-568h@2x.png in Resources */,
+				3F2AD9691AFCEA4000CC7E25 /* Default-667h@2x.png in Resources */,
+				3F2AD96A1AFCEA4000CC7E25 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

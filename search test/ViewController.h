@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+<UITextFieldDelegate>
+{
+    IBOutlet UITextField *searchTextField;//検索窓
+    IBOutlet UILabel *resultLabel;//結果表示
+    
+    NSArray *dataArray;
+}
+-(IBAction) search;
 
 @end
 
